@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvGreeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/good_morning"
+            android:textSize="13sp"
+            android:textColor="@color/colorTextSecondary"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="@string/language_toggle"
+            android:textSize="11sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:backgroundTint="@color/colorBorder"
+            app:cornerRadius="20dp"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:layout_marginTop="2dp"
+            app:layout_constraintTop_toBottomOf="@id/tvGreeting"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/bannerCard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardElevation="0dp"
+            app:layout_constraintTop_toBottomOf="@id/tvAppName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/your_digital_workshop"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/designs_tagline"
+                    android:textSize="12sp"
+                    android:textColor="#FFFFFFBB"
+                    android:layout_marginTop="4dp"/>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/tvQuickAccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quick_access"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextSecondary"
+            android:letterSpacing="0.1"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@id/bannerCard"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardCatalog"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="6dp"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="@color/colorSurface"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/colorBorder"
+            app:strokeWidth="1dp"
+            app:layout_constraintTop_toBottomOf="@id/tvQuickAccess"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/cardEstimator">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🛋️"
+                    android:textSize="28sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_catalog"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorText"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/catalog_sub"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorTextSecondary"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardEstimator"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="6dp"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="@color/colorSurface"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/colorBorder"
+            app:strokeWidth="1dp"
+            app:layout_constraintTop_toBottomOf="@id/tvQuickAccess"
+            app:layout_constraintStart_toEndOf="@id/cardCatalog"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📐"
+                    android:textSize="28sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_estimator"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorText"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/estimator_sub"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorTextSecondary"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardQuotes"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="6dp"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="@color/colorSurface"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/colorBorder"
+            app:strokeWidth="1dp"
+            app:layout_constraintTop_toBottomOf="@id/cardCatalog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/cardPortfolio">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📋"
+                    android:textSize="28sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_quotes"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorText"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quotes_sub"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorTextSecondary"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardPortfolio"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="6dp"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="@color/colorSurface"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/colorBorder"
+            app:strokeWidth="1dp"
+            app:layout_constraintTop_toBottomOf="@id/cardEstimator"
+            app:layout_constraintStart_toEndOf="@id/cardQuotes"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🖼️"
+                    android:textSize="28sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_portfolio"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorText"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/portfolio_sub"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorTextSecondary"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

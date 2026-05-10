@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="180dp"
+    android:viewportWidth="300"
+    android:viewportHeight="180">
+
+    <path android:fillColor="#EAF5EE" android:pathData="M0,0h300v180H0z"/>
+    <!-- Sofa Base -->
+    <path android:fillColor="#3A7D5E" android:pathData="M30,130 h240 v25 q0,8 -8,8 H38 q-8,0 -8,-8 z"/>
+    <!-- Back -->
+    <path android:fillColor="#2D6B4E" android:pathData="M30,85 h240 v45 H30 z"/>
+    <path android:fillColor="#3A7D5E" android:pathData="M30,78 q0,-8 8,-8 h224 q8,0 8,8 v7 H30 z"/>
+    <!-- Left Arm -->
+    <path android:fillColor="#2D6B4E" android:pathData="M20,95 q0,-8 8,-8 h22 v68 H20 z"/>
+    <!-- Right Arm -->
+    <path android:fillColor="#2D6B4E" android:pathData="M250,87 h22 q8,0 8,8 v60 H250 z"/>
+    <!-- Cushion Left -->
+    <path android:fillColor="#4E9B76" android:pathData="M52,92 h88 v38 q0,5 -5,5 H57 q-5,0 -5,-5 z"/>
+    <!-- Cushion Right -->
+    <path android:fillColor="#4E9B76" android:pathData="M160,92 h88 v38 q0,5 -5,5 H165 q-5,0 -5,-5 z"/>
+    <!-- Cushion line -->
+    <path android:fillColor="#3A7D5E" android:pathData="M52,110 h88 v3 H52 z"/>
+    <path android:fillColor="#3A7D5E" android:pathData="M160,110 h88 v3 H160 z"/>
+    <!-- Pillow -->
+    <path android:fillColor="#E9C46A" android:pathData="M122,94 h56 v25 q0,4 -4,4 H126 q-4,0 -4,-4 z"/>
+    <!-- Legs -->
+    <path android:fillColor="#1A5C42" android:pathData="M45,155 h14 v18 q0,3 -3,3 H48 q-3,0 -3,-3 z"/>
+    <path android:fillColor="#1A5C42" android:pathData="M241,155 h14 v18 q0,3 -3,3 H244 q-3,0 -3,-3 z"/>
+</vector>

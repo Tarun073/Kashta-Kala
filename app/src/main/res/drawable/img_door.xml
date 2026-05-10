@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="200dp"
+    android:viewportWidth="300"
+    android:viewportHeight="200">
+
+    <!-- Background -->
+    <path android:fillColor="#F0F7F4" android:pathData="M0,0h300v200H0z"/>
+
+    <!-- Door Frame -->
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M80,20 h140 v175 H80 z"/>
+
+    <!-- Door -->
+    <path android:fillColor="#3A7D5E"
+        android:pathData="M88,25 h124 v165 H88 z"/>
+
+    <!-- Top Panel -->
+    <path android:fillColor="#4E9B76"
+        android:pathData="M98,35 h104 v55 H98 z"/>
+
+    <!-- Bottom Panel -->
+    <path android:fillColor="#4E9B76"
+        android:pathData="M98,100 h104 v80 H98 z"/>
+
+    <!-- Panel borders top -->
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M98,35 h104 v3 H98 z"/>
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M98,87 h104 v3 H98 z"/>
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M98,35 h3 v55 H98 z"/>
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M199,35 h3 v55 H199 z"/>
+
+    <!-- Panel borders bottom -->
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M98,100 h104 v3 H98 z"/>
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M98,177 h104 v3 H98 z"/>
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M98,100 h3 v80 H98 z"/>
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M199,100 h3 v80 H199 z"/>
+
+    <!-- Door Handle -->
+    <path android:fillColor="#E9C46A"
+        android:pathData="M195,108 h8 v20 q0,4 -4,4 H199 q-4,0 -4,-4 z"/>
+
+    <!-- Hinge top -->
+    <path android:fillColor="#E9C46A"
+        android:pathData="M88,45 h8 v12 H88 z"/>
+
+    <!-- Hinge bottom -->
+    <path android:fillColor="#E9C46A"
+        android:pathData="M88,140 h8 v12 H88 z"/>
+
+    <!-- Floor -->
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M70,193 h160 v5 H70 z"/>
+</vector>

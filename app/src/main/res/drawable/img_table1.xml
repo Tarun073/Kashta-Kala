@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="180dp"
+    android:viewportWidth="300"
+    android:viewportHeight="180">
+
+    <path android:fillColor="#EAF5EE" android:pathData="M0,0h300v180H0z"/>
+    <!-- Table top -->
+    <path android:fillColor="#3A7D5E" android:pathData="M20,70 h260 v16 q0,6 -6,6 H26 q-6,0 -6,-6 z"/>
+    <!-- Table top shine -->
+    <path android:fillColor="#4E9B76" android:pathData="M25,72 h250 v5 H25 z"/>
+    <!-- Left leg -->
+    <path android:fillColor="#2D6B4E" android:pathData="M45,92 h20 v70 H45 z"/>
+    <!-- Right leg -->
+    <path android:fillColor="#2D6B4E" android:pathData="M235,92 h20 v70 H235 z"/>
+    <!-- Cross bar -->
+    <path android:fillColor="#2D6B4E" android:pathData="M45,130 h210 v10 H45 z"/>
+    <!-- 6 Chairs -->
+    <!-- Chair left top -->
+    <path android:fillColor="#4E9B76" android:pathData="M5,55 h28 v15 H5 z"/>
+    <path android:fillColor="#3A7D5E" android:pathData="M5,38 h28 v17 H5 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M8,70 h5 v22 H8 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M25,70 h5 v22 H25 z"/>
+    <!-- Chair right top -->
+    <path android:fillColor="#4E9B76" android:pathData="M267,55 h28 v15 H267 z"/>
+    <path android:fillColor="#3A7D5E" android:pathData="M267,38 h28 v17 H267 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M270,70 h5 v22 H270 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M287,70 h5 v22 H287 z"/>
+    <!-- Chair left bottom -->
+    <path android:fillColor="#4E9B76" android:pathData="M5,110 h28 v15 H5 z"/>
+    <path android:fillColor="#3A7D5E" android:pathData="M5,125 h28 v17 H5 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M8,105 h5 v5 H8 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M25,105 h5 v5 H25 z"/>
+    <!-- Chair right bottom -->
+    <path android:fillColor="#4E9B76" android:pathData="M267,110 h28 v15 H267 z"/>
+    <path android:fillColor="#3A7D5E" android:pathData="M267,125 h28 v17 H267 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M270,105 h5 v5 H270 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M287,105 h5 v5 H287 z"/>
+    <!-- Table decor -->
+    <path android:fillColor="#E9C46A" android:pathData="M120,60 h60 v10 H120 z"/>
+    <path android:fillColor="#F4A261" android:pathData="M145,52 h10 v8 H145 z"/>
+</vector>

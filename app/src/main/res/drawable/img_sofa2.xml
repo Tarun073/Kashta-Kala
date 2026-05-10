@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="180dp"
+    android:viewportWidth="300"
+    android:viewportHeight="180">
+
+    <path android:fillColor="#EAF5EE" android:pathData="M0,0h300v180H0z"/>
+    <!-- L Shape base -->
+    <path android:fillColor="#3A7D5E" android:pathData="M20,120 h180 v35 q0,8 -8,8 H28 q-8,0 -8,-8 z"/>
+    <path android:fillColor="#3A7D5E" android:pathData="M160,90 h110 v65 q0,8 -8,8 H168 q-8,0 -8,-8 z"/>
+    <!-- Back left -->
+    <path android:fillColor="#2D6B4E" android:pathData="M20,75 h180 v45 H20 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M20,68 q0,-6 6,-6 h168 q6,0 6,6 v7 H20 z"/>
+    <!-- Back right extension -->
+    <path android:fillColor="#2D6B4E" android:pathData="M200,90 h70 v25 H200 z"/>
+    <!-- Left Arm -->
+    <path android:fillColor="#1A5C42" android:pathData="M12,80 q0,-8 8,-8 h18 v83 H12 z"/>
+    <!-- Cushions -->
+    <path android:fillColor="#4E9B76" android:pathData="M42,80 h75 v40 q0,5 -5,5 H47 q-5,0 -5,-5 z"/>
+    <path android:fillColor="#4E9B76" android:pathData="M125,80 h68 v40 q0,5 -5,5 H130 q-5,0 -5,-5 z"/>
+    <path android:fillColor="#4E9B76" android:pathData="M168,98 h100 v38 q0,5 -5,5 H173 q-5,0 -5,-5 z"/>
+    <!-- Accent pillow -->
+    <path android:fillColor="#F4A261" android:pathData="M88,83 h42 v22 q0,4 -4,4 H92 q-4,0 -4,-4 z"/>
+    <!-- Legs -->
+    <path android:fillColor="#1A5C42" android:pathData="M38,155 h12 v16 H38 z"/>
+    <path android:fillColor="#1A5C42" android:pathData="M170,155 h12 v16 H170 z"/>
+    <path android:fillColor="#1A5C42" android:pathData="M255,155 h12 v16 H255 z"/>
+</vector>

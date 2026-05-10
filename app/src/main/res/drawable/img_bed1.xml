@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="180dp"
+    android:viewportWidth="300"
+    android:viewportHeight="180">
+
+    <path android:fillColor="#EAF5EE" android:pathData="M0,0h300v180H0z"/>
+    <!-- Bed Frame -->
+    <path android:fillColor="#3A7D5E" android:pathData="M25,125 h250 v35 q0,8 -8,8 H33 q-8,0 -8,-8 z"/>
+    <!-- Headboard -->
+    <path android:fillColor="#2D6B4E" android:pathData="M25,55 h75 v70 H25 z"/>
+    <path android:fillColor="#3A7D5E" android:pathData="M32,62 h61 v58 H32 z"/>
+    <!-- Headboard design -->
+    <path android:fillColor="#4E9B76" android:pathData="M38,68 h49 v10 H38 z"/>
+    <path android:fillColor="#4E9B76" android:pathData="M38,84 h49 v10 H38 z"/>
+    <path android:fillColor="#4E9B76" android:pathData="M38,100 h49 v10 H38 z"/>
+    <!-- Mattress -->
+    <path android:fillColor="#F5F5F5" android:pathData="M100,95 h170 v30 q0,5 -5,5 H105 q-5,0 -5,-5 z"/>
+    <!-- Mattress border -->
+    <path android:fillColor="#E0E0E0" android:pathData="M100,95 h170 v4 H100 z"/>
+    <path android:fillColor="#E0E0E0" android:pathData="M100,95 h4 v35 H100 z"/>
+    <path android:fillColor="#E0E0E0" android:pathData="M266,95 h4 v35 H266 z"/>
+    <!-- Pillow 1 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M108,100 h55 v20 q0,4 -4,4 H112 q-4,0 -4,-4 z"/>
+    <!-- Pillow 2 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M172,100 h55 v20 q0,4 -4,4 H176 q-4,0 -4,-4 z"/>
+    <!-- Blanket -->
+    <path android:fillColor="#4E9B76" android:pathData="M100,120 h170 v10 q0,5 -5,5 H105 q-5,0 -5,-5 z"/>
+    <!-- Blanket fold -->
+    <path android:fillColor="#3A7D5E" android:pathData="M100,120 h170 v4 H100 z"/>
+    <!-- Legs -->
+    <path android:fillColor="#1A5C42" android:pathData="M38,160 h14 v15 H38 z"/>
+    <path android:fillColor="#1A5C42" android:pathData="M248,160 h14 v15 H248 z"/>
+</vector>

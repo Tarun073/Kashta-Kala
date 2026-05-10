@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="200dp"
+    android:viewportWidth="300"
+    android:viewportHeight="200">
+
+    <!-- Background -->
+    <path android:fillColor="#F0F7F4" android:pathData="M0,0h300v200H0z"/>
+
+    <!-- Cabinet Body -->
+    <path android:fillColor="#3A7D5E"
+        android:pathData="M60,30 h180 v155 H60 z"/>
+
+    <!-- Cabinet outline -->
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M60,30 h180 v5 H60 z"/>
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M60,182 h180 v3 H60 z"/>
+
+    <!-- Left Door -->
+    <path android:fillColor="#4E9B76"
+        android:pathData="M65,40 h82 v140 H65 z"/>
+
+    <!-- Right Door -->
+    <path android:fillColor="#4E9B76"
+        android:pathData="M153,40 h82 v140 H153 z"/>
+
+    <!-- Center divider -->
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M148,35 h4 v150 H148 z"/>
+
+    <!-- Left Door Handle -->
+    <path android:fillColor="#E9C46A"
+        android:pathData="M138,105 h8 v15 q0,3 -3,3 H141 q-3,0 -3,-3 z"/>
+
+    <!-- Right Door Handle -->
+    <path android:fillColor="#E9C46A"
+        android:pathData="M154,105 h8 v15 q0,3 -3,3 H157 q-3,0 -3,-3 z"/>
+
+    <!-- Top shelf line -->
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M65,95 h82 v3 H65 z"/>
+    <path android:fillColor="#2D6B4E"
+        android:pathData="M153,95 h82 v3 H153 z"/>
+
+    <!-- Legs -->
+    <path android:fillColor="#1A5C42"
+        android:pathData="M70,182 h15 v12 H70 z"/>
+    <path android:fillColor="#1A5C42"
+        android:pathData="M215,182 h15 v12 H215 z"/>
+</vector>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="180dp"
+    android:viewportWidth="300"
+    android:viewportHeight="180">
+
+    <path android:fillColor="#EAF5EE" android:pathData="M0,0h300v180H0z"/>
+    <!-- TV Unit Body -->
+    <path android:fillColor="#3A7D5E" android:pathData="M20,100 h260 v55 q0,8 -8,8 H28 q-8,0 -8,-8 z"/>
+    <!-- Top surface -->
+    <path android:fillColor="#2D6B4E" android:pathData="M20,94 h260 v8 q0,4 -4,4 H24 q-4,0 -4,-4 z"/>
+    <!-- Left cabinet -->
+    <path android:fillColor="#4E9B76" android:pathData="M28,108 h70 v42 H28 z"/>
+    <!-- Middle open shelf -->
+    <path android:fillColor="#2D6B4E" android:pathData="M105,108 h90 v42 H105 z"/>
+    <!-- Right cabinet -->
+    <path android:fillColor="#4E9B76" android:pathData="M202,108 h70 v42 H202 z"/>
+    <!-- Left door handle -->
+    <path android:fillColor="#E9C46A" android:pathData="M88,127 h8 v10 H88 z"/>
+    <!-- Right door handle -->
+    <path android:fillColor="#E9C46A" android:pathData="M204,127 h8 v10 H204 z"/>
+    <!-- TV on top -->
+    <path android:fillColor="#1A1A1A" android:pathData="M60,30 h180 v60 q0,4 -4,4 H64 q-4,0 -4,-4 z"/>
+    <path android:fillColor="#2A2A2A" android:pathData="M65,35 h170 v50 H65 z"/>
+    <!-- TV screen -->
+    <path android:fillColor="#3A7D5E" android:pathData="M68,38 h164 v44 H68 z"/>
+    <!-- TV stand -->
+    <path android:fillColor="#1A1A1A" android:pathData="M135,94 h30 v6 H135 z"/>
+    <!-- Shelf items -->
+    <path android:fillColor="#E9C46A" android:pathData="M115,118 h15 v28 H115 z"/>
+    <path android:fillColor="#F4A261" android:pathData="M135,122 h12 v24 H135 z"/>
+    <path android:fillColor="#4E9B76" android:pathData="M152,115 h30 v31 H152 z"/>
+    <!-- Legs -->
+    <path android:fillColor="#1A5C42" android:pathData="M35,163 h12 v12 H35 z"/>
+    <path android:fillColor="#1A5C42" android:pathData="M253,163 h12 v12 H253 z"/>
+</vector>

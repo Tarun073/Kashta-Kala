@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="180dp"
+    android:viewportWidth="300"
+    android:viewportHeight="180">
+
+    <path android:fillColor="#EAF5EE" android:pathData="M0,0h300v180H0z"/>
+    <!-- Body -->
+    <path android:fillColor="#3A7D5E" android:pathData="M50,20 h200 v150 H50 z"/>
+    <!-- Top bar -->
+    <path android:fillColor="#2D6B4E" android:pathData="M50,20 h200 v8 H50 z"/>
+    <!-- Bottom bar -->
+    <path android:fillColor="#2D6B4E" android:pathData="M50,162 h200 v8 H50 z"/>
+    <!-- 4 Doors -->
+    <path android:fillColor="#4E9B76" android:pathData="M55,32 h43 v125 H55 z"/>
+    <path android:fillColor="#4E9B76" android:pathData="M103,32 h43 v125 H103 z"/>
+    <path android:fillColor="#4E9B76" android:pathData="M154,32 h43 v125 H154 z"/>
+    <path android:fillColor="#4E9B76" android:pathData="M202,32 h43 v125 H202 z"/>
+    <!-- Door dividers -->
+    <path android:fillColor="#2D6B4E" android:pathData="M99,28 h5 v144 H99 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M149,28 h5 v144 H149 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M199,28 h5 v144 H199 z"/>
+    <!-- Handles -->
+    <path android:fillColor="#E9C46A" android:pathData="M90,88 h7 v14 q0,3 -3,3 H93 q-3,0 -3,-3 z"/>
+    <path android:fillColor="#E9C46A" android:pathData="M103,88 h7 v14 q0,3 -3,3 H106 q-3,0 -3,-3 z"/>
+    <path android:fillColor="#E9C46A" android:pathData="M140,88 h7 v14 q0,3 -3,3 H143 q-3,0 -3,-3 z"/>
+    <path android:fillColor="#E9C46A" android:pathData="M153,88 h7 v14 q0,3 -3,3 H156 q-3,0 -3,-3 z"/>
+    <!-- Shelf lines -->
+    <path android:fillColor="#2D6B4E" android:pathData="M55,95 h43 v3 H55 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M103,95 h43 v3 H103 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M154,95 h43 v3 H154 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M202,95 h43 v3 H202 z"/>
+    <!-- Legs -->
+    <path android:fillColor="#1A5C42" android:pathData="M60,170 h15 v10 H60 z"/>
+    <path android:fillColor="#1A5C42" android:pathData="M225,170 h15 v10 H225 z"/>
+</vector>

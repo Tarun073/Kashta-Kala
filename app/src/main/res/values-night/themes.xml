@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.KashtaKala" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#4E9B76</item>
+        <item name="colorPrimaryDark">#3A7D5E</item>
+        <item name="colorAccent">#4E9B76</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorSurface">#1E1E1E</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#1E1E1E</item>
+        <item name="android:navigationBarColor">#1E1E1E</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.KashtaKala" parent="Base.Theme.KashtaKala"/>
+</resources>

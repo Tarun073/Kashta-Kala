@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ಕಷ್ಟ-ಕಾಲ</string>
+    <string name="title_home">ಮನೆ</string>
+    <string name="title_catalog">ಕ್ಯಾಟಲಾಗ್</string>
+    <string name="title_estimator">ಅಂದಾಜು</string>
+    <string name="title_quotes">ನನ್ನ ಉಲ್ಲೇಖಗಳು</string>
+    <string name="title_portfolio">ನನ್ನ ಪೋರ್ಟ್ಫೋಲಿಯೋ</string>
+    <string name="btn_calculate">ಲೆಕ್ಕ ಹಾಕಿ</string>
+    <string name="btn_save_quote">ಉಲ್ಲೇಖ ಉಳಿಸಿ</string>
+    <string name="btn_add_photo">ಫೋಟೋ ಸೇರಿಸಿ</string>
+    <string name="btn_delete">ಅಳಿಸಿ</string>
+    <string name="btn_share">ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="empty_quotes">ಇನ್ನೂ ಉಲ್ಲೇಖಗಳಿಲ್ಲ!\nಅಂದಾಜು ಬಳಸಿ ರಚಿಸಿ.</string>
+    <string name="empty_portfolio">ಇನ್ನೂ ಫೋಟೋಗಳಿಲ್ಲ!\n+ ಒತ್ತಿ ಸೇರಿಸಿ.</string>
+    <string name="quote_saved">ಉಲ್ಲೇಖ ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ!</string>
+    <string name="app_tagline">ಬಡಗಿಯ ಡಿಜಿಟಲ್ ಸಹಾಯಕ</string>
+    <string name="your_digital_workshop">ನಿಮ್ಮ ಡಿಜಿಟಲ್ ಕಾರ್ಯಾಗಾರ</string>
+    <string name="designs_tagline">50+ ವಿನ್ಯಾಸಗಳು · ಉಲ್ಲೇಖಗಳು · ಪೋರ್ಟ್ಫೋಲಿಯೋ</string>
+    <string name="quick_access">ತ್ವರಿತ ಪ್ರವೇಶ</string>
+    <string name="catalog_sub">50+ ವಿನ್ಯಾಸಗಳು</string>
+    <string name="estimator_sub">ಮರ ಲೆಕ್ಕ ಹಾಕಿ</string>
+    <string name="quotes_sub">ಉಳಿಸಿದ ಉಲ್ಲೇಖಗಳು</string>
+    <string name="portfolio_sub">ಕೆಲಸ ತೋರಿಸಿ</string>
+    <string name="wood_teak">ತೇಗ</string>
+    <string name="wood_sal">ಸಾಲ್</string>
+    <string name="wood_plywood">ಪ್ಲೈವುಡ್</string>
+    <string name="wood_mdf">ಎಂಡಿಎಫ್</string>
+    <string name="wood_pine">ಪೈನ್</string>
+    <string name="language_toggle">English</string>
+    <string name="delete_confirm">ಅಳಿಸಲು ಖಚಿತಪಡಿಸಿ?</string>
+    <string name="good_morning">ಶುಭೋದಯ 👋</string>
+</resources>

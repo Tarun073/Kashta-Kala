@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="180dp"
+    android:viewportWidth="300"
+    android:viewportHeight="180">
+
+    <path android:fillColor="#EAF5EE" android:pathData="M0,0h300v180H0z"/>
+    <!-- Wall -->
+    <path android:fillColor="#E0EDE6" android:pathData="M0,0h300v180H0z"/>
+    <!-- Door Frame -->
+    <path android:fillColor="#2D6B4E" android:pathData="M85,10 h130 v168 H85 z"/>
+    <!-- Door -->
+    <path android:fillColor="#3A7D5E" android:pathData="M92,16 h116 v158 H92 z"/>
+    <!-- Top panel -->
+    <path android:fillColor="#4E9B76" android:pathData="M100,24 h100 v50 H100 z"/>
+    <!-- Top panel border -->
+    <path android:fillColor="#2D6B4E" android:pathData="M100,24 h100 v3 H100 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M100,71 h100 v3 H100 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M100,24 h3 v50 H100 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M197,24 h3 v50 H197 z"/>
+    <!-- Middle panel -->
+    <path android:fillColor="#4E9B76" android:pathData="M100,82 h100 v30 H100 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M100,82 h100 v3 H100 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M100,109 h100 v3 H100 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M100,82 h3 v30 H100 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M197,82 h3 v30 H197 z"/>
+    <!-- Bottom panel -->
+    <path android:fillColor="#4E9B76" android:pathData="M100,120 h100 v48 H100 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M100,120 h100 v3 H100 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M100,165 h100 v3 H100 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M100,120 h3 v48 H100 z"/>
+    <path android:fillColor="#2D6B4E" android:pathData="M197,120 h3 v48 H197 z"/>
+    <!-- Handle -->
+    <path android:fillColor="#E9C46A" android:pathData="M185,100 h8 v22 q0,4 -4,4 H189 q-4,0 -4,-4 z"/>
+    <!-- Hinges -->
+    <path android:fillColor="#E9C46A" android:pathData="M92,35 h8 v14 H92 z"/>
+    <path android:fillColor="#E9C46A" android:pathData="M92,130 h8 v14 H92 z"/>
+    <!-- Floor -->
+    <path android:fillColor="#2D6B4E" android:pathData="M60,174 h180 v6 H60 z"/>
+</vector>
