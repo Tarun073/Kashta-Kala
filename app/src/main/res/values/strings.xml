@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Kashta-Kaala</string>
+    <string name="app_name">Kashta-Kala</string>
     <string name="title_home">Home</string>
     <string name="title_catalog">Catalog</string>
     <string name="title_estimator">Estimator</string>
@@ -29,4 +29,21 @@
     <string name="language_toggle">ಕನ್ನಡ</string>
     <string name="delete_confirm">Are you sure you want to delete this?</string>
     <string name="good_morning">Good morning 👋</string>
+
+    <!-- Auth Strings -->
+    <string name="title_login">Welcome Back</string>
+    <string name="title_register">Create Account</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full Name</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="msg_no_account">Don\'t have an account? Register</string>
+    <string name="msg_have_account">Already have an account? Login</string>
+    <string name="login_with_email">Continue with Email</string>
+    <string name="login_with_phone">Continue with Phone</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="error_invalid_phone">Invalid phone number</string>
+    <string name="error_short_password">Password too short</string>
 </resources>

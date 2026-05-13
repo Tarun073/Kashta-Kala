@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ಕಷ್ಟ-ಕಾಲ</string>
+    <string name="app_name">ಕಾಷ್ಟ-ಕಲ</string>
     <string name="title_home">ಮನೆ</string>
     <string name="title_catalog">ಕ್ಯಾಟಲಾಗ್</string>
     <string name="title_estimator">ಅಂದಾಜು</string>
@@ -29,4 +29,21 @@
     <string name="language_toggle">English</string>
     <string name="delete_confirm">ಅಳಿಸಲು ಖಚಿತಪಡಿಸಿ?</string>
     <string name="good_morning">ಶುಭೋದಯ 👋</string>
+
+    <!-- Auth Strings -->
+    <string name="title_login">ಮರಳಿ ಸ್ವಾಗತ</string>
+    <string name="title_register">ಖಾತೆ ರಚಿಸಿ</string>
+    <string name="hint_email">ಇಮೇಲ್</string>
+    <string name="hint_phone">ಫೋನ್ ಸಂಖ್ಯೆ</string>
+    <string name="hint_password">ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="hint_name">ಪೂರ್ಣ ಹೆಸರು</string>
+    <string name="btn_login">ಲಾಗಿನ್</string>
+    <string name="btn_register">ನೋಂದಾಯಿಸಿ</string>
+    <string name="msg_no_account">ಖಾತೆ ಇಲ್ಲವೇ? ನೋಂದಾಯಿಸಿ</string>
+    <string name="msg_have_account">ಈಗಾಗಲೇ ಖಾತೆ ಹೊಂದಿದ್ದೀರಾ? ಲಾಗಿನ್</string>
+    <string name="login_with_email">ಇಮೇಲ್ ಮೂಲಕ ಮುಂದುವರಿಸಿ</string>
+    <string name="login_with_phone">ಫೋನ್ ಮೂಲಕ ಮುಂದುವರಿಸಿ</string>
+    <string name="error_invalid_email">ಅಮಾನ್ಯ ಇಮೇಲ್</string>
+    <string name="error_invalid_phone">ಅಮಾನ್ಯ ಫೋನ್ ಸಂಖ್ಯೆ</string>
+    <string name="error_short_password">ಪಾಸ್‌ವರ್ಡ್ ತುಂಬಾ ಚಿಕ್ಕದಾಗಿದೆ</string>
 </resources>

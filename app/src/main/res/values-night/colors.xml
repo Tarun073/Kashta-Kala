@@ -10,8 +10,7 @@
     <color name="colorText">#F0F0F0</color>
     <color name="colorTextSecondary">#AAAAAA</color>
     <color name="colorBorder">#2A2A2A</color>
-    <color name="colorCard">#1E1E1E</color>
-    <color name="colorBanner">#2D6B4E</color>
     <color name="white">#FFFFFF</color>
-    <color name="black">#1A1A1A</color>
+    <color name="black">#000000</color>
+    <color name="error">#F2B8B5</color>
 </resources>
