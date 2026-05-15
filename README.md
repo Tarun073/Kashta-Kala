@@ -52,7 +52,7 @@ Room Database
 
 ## 📂 Project Structure
 
-``` id="2jv0qv"
+```text
 com.kashta.kala/
 ├── data/
 │   ├── model/
@@ -67,3 +67,68 @@ com.kashta.kala/
 ├── MainActivity.kt
 ├── SplashActivity.kt
 └── KashtaApp.kt
+```
+
+---
+
+## 📊 Modules
+
+### 1. Furniture Catalog
+Browse furniture designs with category filters and search functionality.
+
+### 2. Cost Estimator
+Calculate furniture cost based on dimensions, wood type, labour cost, and extra cost.
+
+### 3. Saved Quotes
+Save, delete, and share furniture quotations.
+
+### 4. Portfolio
+Store and showcase completed furniture work using images.
+
+---
+
+## 🧮 Cost Estimation Formula
+
+```text
+Volume = Length × Width × Height
+Waste Volume = Volume × 1.10
+Total Cost = Material Cost + Labour Cost + Extra Cost
+```
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/KashtaKala.git
+```
+
+2. Open the project in Android Studio
+
+3. Sync Gradle files
+
+4. Run the application on emulator or Android device
+
+---
+
+## 🔮 Future Scope
+
+- Firebase Cloud Sync
+- WhatsApp PDF Sharing
+- Multi-language Support
+- AI-based Suggestions
+- Revenue Analytics
+
+---
+
+## 👨‍💻 Developer
+
+Tarun  
+B.Tech CSE
+
+---
+
+## 📄 License
+
+This project is developed for academic and educational purposes.
